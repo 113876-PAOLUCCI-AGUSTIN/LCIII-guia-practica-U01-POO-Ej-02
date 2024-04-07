@@ -24,4 +24,12 @@ public class Main {
         Integer y2 = teclado.nextInt();
         Punto p02 = new Punto(x2, y2);
     }
+
+    public static Double getDistance(Punto p1, Punto p2) {
+        Double firstTerm = (Math.pow((p2.getValorEjeX() - p1.getValorEjeX()),2));
+        Double secondTerm = (Math.pow((p2.getValorEjeY() - p1.getValorEjeY()),2));
+        Double thirdTerm = firstTerm + secondTerm;
+        return Math.sqrt(thirdTerm);
+        // Formula: d = √((x2 - x1)² + (y2 - y1)²)
+    }
 }
