@@ -8,9 +8,6 @@ public class Punto {
         this.valorEjeY = valorEjeY;
     }
 
-    public Punto() {
-    }
-
     // GETTERS & SETTERS
     public Integer getValorEjeX() {
         return valorEjeX;

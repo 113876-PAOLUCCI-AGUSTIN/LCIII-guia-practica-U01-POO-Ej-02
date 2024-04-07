@@ -18,7 +18,7 @@ public class Main {
         Integer x1 = teclado.nextInt();
         Integer y1 = teclado.nextInt();
         Punto p01 = new Punto(x1, y1);
-        
+
         System.out.println("Ingrese las coordenadas X y Y del segundo punto");
         Integer x2 = teclado.nextInt();
         Integer y2 = teclado.nextInt();
