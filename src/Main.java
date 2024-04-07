@@ -7,9 +7,10 @@
  * A partir de las instancias creadas calcular y mostrar la distancia existente entre ambos puntos.
  *
  */
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
     }
 }
